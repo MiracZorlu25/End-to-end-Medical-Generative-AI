@@ -1,0 +1,32 @@
+# Sentence Transformers: Cümleleri vektörlere dönüştürmek için kullanılır (örn: metin benzerliği, arama).
+sentence-transformers==2.2.2
+
+# LangChain: LLM (Large Language Models) tabanlı uygulamalar geliştirmek için kullanılan bir framework.
+langchain
+
+# Flask: Hafif bir web framework'ü, API geliştirmek için kullanılır.
+flask
+
+# PyPDF: PDF dosyalarını okumak ve işlemek için kullanılır.
+pypdf
+
+# python-dotenv: .env dosyasındaki ortam değişkenlerini projeye yüklemek için kullanılır.
+python-dotenv
+
+# Pinecone: Vektör veritabanı hizmeti, büyük metin verilerini hızlı bir şekilde aramak için kullanılır.
+pinecone[grpc]
+
+# LangChain Pinecone: LangChain ile Pinecone entegrasyonunu sağlar.
+langchain-pinecone
+
+# LangChain Community: LangChain'in topluluk destekli ek bileşenlerini içerir.
+langchain_community
+
+# LangChain OpenAI: LangChain’in OpenAI modelleriyle çalışmasını sağlar.
+langchain_openai
+
+# LangChain Experimental: LangChain’in deneysel (beta) özelliklerini içerir.
+langchain_experimental
+
+# Lokal geliştirme için proje dizinini ekler (genellikle setup.py ile birlikte kullanılır).
+-e .
